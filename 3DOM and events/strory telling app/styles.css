@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cadetblue;
+
+}
+h1{
+    text-align: center;
+    margin: 10px 0 15px
+}
+.story-container{
+    border: 14px double black;
+    width: 50%;
+    margin: 10px auto;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+
+}
+.btn{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 0;
+    margin: 10px auto;
+    background-color: goldenrod;
+    border: 3px solid;
+}
+.btn:hover{
+    background: gold;
+}
+#result{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
